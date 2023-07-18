@@ -1,0 +1,1 @@
+This project is based on a company named Headphones, they are Africas leading Headphones creaters, They are the best in design and manufacturing. Their website contains all the information you need to know about the, or you can follow them on social media to see what they truly about.
