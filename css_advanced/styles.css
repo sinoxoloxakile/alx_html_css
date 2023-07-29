@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Positioning and margins */
+.homepage{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Object.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.navbar div ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.logo{
+    width: 120px;
+}
+.navbar div ul li a{
+    color: white;
+    text-decoration: solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.intro{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+.intro h3{
+  -webkit-text-fill-color: white;
+  size: 50px;
+}
+button{
+  margin-top: 30PX;
+}
+.intro p{
+  margin-top: 10px;
+  text-transform: capitalize;
+  word-spacing: 1em;
+}
+.prosh3 span{
+    color: purple;
+}
+.prosh3{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50PX;
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+.pros{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  .proimages{
+    width: 120px;
+  }
+  .image1{
+    color: white;
+    text-align: center;
+  }
+  .image2{
+    color: white;
+    text-align: center;
+  }
+  .image3{
+    color: white;
+    text-align: center;
+  }
+  .image4{
+    color: white;
+    text-align: center;
+  }
+  .page2{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(197, 100, 232);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .image5text{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align:inherit;
+    word-wrap:normal;
+    
+  }
+  .image5text h5{
+    position: relative;
+    text-align:start
+  }
+  .image5text .p2{
+    position: relative;
+    text-align: center;
+  }
+  .page3{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-color: white;
+    
+  }
+  .philip{
+    width: 20px;
+  }
+  .rating{
+    width: 50px;
+  }
+  .vida{
+    width: 200px;
+    justify-content: space-around;
+  }
+  .videos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+  }
+  .video h4{
+   font-weight: 800;
+   font-family: sans-serif;
+   font-size:x-small
+  }
+  .video p{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+  }
+  .membership{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(3, 12, 30);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .smiles{
+    padding-top: 50px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .button{
+    width: 20%;
+    height: 20vh;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .faq{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+  }
+  .row{
+    display: inline-block;
+  }
