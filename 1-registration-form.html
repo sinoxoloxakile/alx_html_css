@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Registration Form</legend>
+            <ul>
+              <!-- fristrt Name -->
+              <li>
+                <label for="name">Name:
+                  <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="text" name="user_name" id="name" required>
+              </li>
+              <li>
+                <label for="email address">Email:
+                  <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="email" name="user_email" id="email address" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+              </li>
+              <!-- password -->
+              <li>
+                <label for="password1">Password:
+                  <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="password" name="user-password" id="password1" required>
+              </li>
+              <!--  hi  password -->
+              <li>
+                <label for="bsword2">Confirm Password:
+                  <span aria-label="required">*</span>
+                </label>
+                <input type="password" name="user-password2" id="bsword2" required>
+              </li>
+      
+            </ul>
+          <button type="submit" onclick="matchPassword()">Submit</button>
+        </fieldset>
+      </form>
+      <script>
+        function matchPassword() {
+            var pw2 = document.getElementById("bsword2").value;
+          var pw1 = document.getElementById("password1").value;
+          if(pw1 !== pw2){
+            alert("Passwords do not match.Please try again");
+            return false;
+          } else {
+            return true;
+          }
+        }
+      </script>
+</body>
+</html>
